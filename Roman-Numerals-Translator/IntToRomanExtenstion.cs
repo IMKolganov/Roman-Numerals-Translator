@@ -52,19 +52,17 @@ Examples:
                 throw new Exception("Invalid param max value in Roman 3999");
             }
 
-            string[] symbols = new string[] { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
-            int[] values = new int[] { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
-
             StringBuilder sb = new StringBuilder();
 
-            //for (int i = 0; i < values.Length && num > 0; i++)
-            //{
-            //    while (values[i] <= num)
-            //    {
-            //        num -= values[i];
-            //        sb.Append(symbols[i]);
-            //    }
-            //}
+            foreach (var pair in romanDict.OrderByDescending(p => p.Value))
+            {
+                while (num >= pair.Value)
+                {
+                    num -= pair.Value;
+                    sb.Append(pair.Key);
+                }
+            }
+
             return sb.ToString();
         }
     }

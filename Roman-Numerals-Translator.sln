@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman-Numerals-Translator", "Roman-Numerals-Translator\Roman-Numerals-Translator.csproj", "{E4E7CACA-1E17-495F-9868-13F0AAC1386F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman-Numerals-Translator.Tests", "Roman-Numerals-Translator.Tests\Roman-Numerals-Translator.Tests.csproj", "{771BDE4A-CB25-487D-9669-D8C89641E624}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E4E7CACA-1E17-495F-9868-13F0AAC1386F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E7CACA-1E17-495F-9868-13F0AAC1386F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E7CACA-1E17-495F-9868-13F0AAC1386F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771BDE4A-CB25-487D-9669-D8C89641E624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771BDE4A-CB25-487D-9669-D8C89641E624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771BDE4A-CB25-487D-9669-D8C89641E624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771BDE4A-CB25-487D-9669-D8C89641E624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
